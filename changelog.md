@@ -13,6 +13,7 @@
 10. Add script formater, script vailded, scipt helper, script demo, script debugger and script performance analyze.
 12. Add bridge adapter for SQL user, Elastic search user, NoSQL user.
 13. Add bridge adapter for Google Tensorflow.
+14. Add Csharp & Cpp support.
 
 ## 0.0.2 release on Feb 1, 2019
 1. Support full research information system format(.RIS) specification.
