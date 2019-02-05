@@ -1,22 +1,4 @@
-# About Quicktext Query Language
-
-Quicktext Query Language is called QQL for short.
-
-It's a programming language oriented to the scientific research.
-
-It's used for processing the corpus, especially for the researchers of information science.
-
-It's developed by Genix when he began working in Quicktext Infotech Co., Ltd.
-
-It's designed by Java Technology, however it can be implement by other programming languages.
-
-It's the product of Quicktext Infotech Co., Ltd.
-
-# Specification of Quciktext Query Language
-
-[Specification of Quicktext Query Language](specification.md)
-
-# Quciktext Query Language Reference
+# Quciktext Query Language Refence
 
 1. [Crocker, Dave, and Paul Overell. Augmented BNF for syntax specifications: ABNF. No. RFC 5234. 2008.](https://tools.ietf.org/html/rfc5234)
 2. [ISO, ISO. "IEC 9075: 2011 information technology, database languages." (2011).](https://www.iso.org/standard/53681.html)
@@ -38,67 +20,9 @@ It's the product of Quicktext Infotech Co., Ltd.
 18. [Boettiger, Carl. "An introduction to Docker for reproducible research." ACM SIGOPS Operating Systems Review 49.1 (2015): 71-79.](https://dl.acm.org/citation.cfm?id=2723882)
 19. [Bernstein, David. "Containers and cloud: From lxc to docker to kubernetes." IEEE Cloud Computing 3 (2014): 81-84.](https://www.computer.org/csdl/mags/cd/2014/03/mcd2014030081-abs.html)
 20. [Anderson, Charles. "Docker [software engineering]." IEEE Software 32.3 (2015): 102-c3.](https://ieeexplore.ieee.org/abstract/document/7093032)
-21. [Parr, T. "The Definitive ANTLR 4 Reference, Oreilly and Associate Series, Pragmatic Programmers, LLC, 2013."](http://books.google.com.ar/books)
+
+
+
+
 
 The list will be updated every month.
-
-# Current working
-
-1. Add model statement support. 
-2. Updating the user manual.
-2. Refacting to the antlr version.
-
-# Download the QQL Terminal v0.0.2
-
-<https://github.com/quicktext/qql/releases>
-
-Please click the program in the bin folder with the [debug.qprivate](http://www.quicktext.cn/debug.qprivate) in the root folder.
-
-The program will be updated every month.
-
-# ChangeLog of the QQL Terminal
-
-[ChangeLog](changelog.md)
-
-The changelog will be updated every month.
-
-# Manual of the QQL Terminal
-
-[English Manual](manual/qql.manual.en_US.pdf)
-
-[Chinese Manual](manual/qql.manual.zh_CN.pdf)
-
-The current manual version is 0.0.1, but the current program is 0.0.2!
-
-We will update the manual on Feb, 2019.
-
-The changelog will be updated every three months.
-
-# About Genix
-
-Genix is a Java coder. He began learning Java Programming from 2003.
-
-He was awarded a bachelor's degree in 2010, a master's degree in 2012 and a doctor's degree in 2016. 
-
-He completed his postdoctoral research in 2018.
-
-Now he works in Quicktext Infotech Co., Ltd.
-
-# Contact Us
-
-Genix's mail(only for technology questions): 
-
-genix@quicktex.cn
-
-Genix's twitter(only for technology questions): 
-
-[@realGenix](https://twitter.com/realGenix)
-
-Company email(for other questions): 
-
-support@quicktext.cn
-
-Company website: 
-
-<http://www.quicktext.cn>
-
