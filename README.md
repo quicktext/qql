@@ -50,7 +50,7 @@ The list will be updated every month.
 
 
 # System architecture
-## ![Abstract Synatx Tree](document/ast.png)
+## ![Abstract Synatx Tree](images/ast.png)
 
 # Download the QQL Terminal v0.0.2
 
