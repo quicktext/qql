@@ -46,7 +46,11 @@ The list will be updated every month.
 
 1. Add model statement support. 
 2. Updating the user manual.
-2. Refacting to the antlr version.
+3. Refacting to the antlr version.
+
+
+# System architecture
+## ![Abstract Synatx Tree](document/ast.png)
 
 # Download the QQL Terminal v0.0.2
 
