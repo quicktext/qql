@@ -5,6 +5,15 @@
 3. [DONE!]Refacting to the antlr version.
 4. [DONE!]Support Java, C Plus Plus, C Sharp, Swift, Javascript！
 
+# Specification of Quciktext Query Language
+
+[Specification of Quicktext Query Language](specification.md)
+
+# Course of Quciktext Query Language
+
+[Course ](courses.md)
+
+
 # About Quicktext Query Language
 
 Quicktext Query Language is called QQL for short.
@@ -19,9 +28,7 @@ It's designed by Java Technology, however it can be implement by other programmi
 
 It's the product of Quicktext Infotech Co., Ltd.
 
-# Specification of Quciktext Query Language
 
-[Specification of Quicktext Query Language](specification.md)
 
 # Quciktext Query Language Reference
 
