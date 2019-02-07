@@ -1,6 +1,6 @@
 # Current working
 
-1. [DOINT]Refacting the user manual.
+1. [DOING]Refacting the user manual.
 2. [DONE]Add model statement support. 
 3. [DONE!]Refacting to the antlr version.
 4. [DONE!]Support Java, C Plus Plus, C Sharp, Swift, Javascript！
