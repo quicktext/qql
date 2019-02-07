@@ -58,7 +58,7 @@ Software and IDE:
 
 1. [Antlr 4.0](https://www.antlr.org/)
 2. [Oracle Java Development Kit 1.8](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
-3. Python 3(http://www.python.org)
+3. [Python 3](http://www.python.org)
 4. [Git](https://git-scm.com/)
 5. [GraphVIZ](http://graphviz.org/)
 
