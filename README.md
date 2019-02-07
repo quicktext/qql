@@ -14,21 +14,26 @@
 
 [Specification of Quicktext Query Language](specification.md)
 
+# Transition Network Diagrams
+
+Comming soon...
+
+# Abstract Syntax Tree
+
+Comming soon...
+
+
 # About Quicktext Query Language
 
 Quicktext Query Language is called QQL for short.
 
-It's a programming language oriented to the scientific research.
+It's a new domain-specific language oriented to the scientific research and data mining.
 
 It's used for processing the corpus, especially for the researchers of information science.
 
 It's developed by Genix when he began working in Quicktext Infotech Co., Ltd.
 
-It's designed by Java Technology, however it can be implement by other programming languages.
-
 It's the product of Quicktext Infotech Co., Ltd.
-
-
 
 # Quciktext Query Language Reference
 
@@ -56,9 +61,6 @@ It's the product of Quicktext Infotech Co., Ltd.
 
 The list will be updated every month.
 
-# System architecture
-## ![Abstract Synatx Tree](images/ast.2019.2.6.png)
-
 # Download the QQL Terminal v0.0.2
 
 <https://github.com/quicktext/qql/releases>
@@ -75,9 +77,9 @@ The changelog will be updated every month.
 
 # Manual of the QQL Terminal
 
-[English Manual](manual/qql.manual.en_US.pdf)
+[English Manual](#):Will update soon!
 
-[Chinese Manual](manual/qql.manual.zh_CN.pdf)
+[Chinese Manual](#):Will update soon!
 
 The current manual version is 0.0.1, but the current program is 0.0.2!
 
