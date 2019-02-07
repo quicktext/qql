@@ -1,3 +1,10 @@
+# Current working
+
+1. [DONE]Add model statement support. 
+2. Updating the user manual.
+3. [DONE!]Refacting to the antlr version.
+4. [DONE!]Support Java, C Plus Plus, C Sharp, Swift, Javascript！
+
 # About Quicktext Query Language
 
 Quicktext Query Language is called QQL for short.
@@ -41,13 +48,6 @@ It's the product of Quicktext Infotech Co., Ltd.
 21. [Parr, T. "The Definitive ANTLR 4 Reference, Oreilly and Associate Series, Pragmatic Programmers, LLC, 2013."](http://books.google.com.ar/books)
 
 The list will be updated every month.
-
-# Current working
-
-1. Add model statement support. 
-2. Updating the user manual.
-3. Refacting to the antlr version.
-
 
 # System architecture
 ## ![Abstract Synatx Tree](images/ast.2019.2.6.png)
