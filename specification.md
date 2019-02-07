@@ -530,3 +530,4 @@ Our parser includes three parts: lexical analysis, syntax analysis and  exceptio
 19. [Bernstein, David. "Containers and cloud: From lxc to docker to kubernetes." IEEE Cloud Computing 3 (2014): 81-84.](https://www.computer.org/csdl/mags/cd/2014/03/mcd2014030081-abs.html)
 20. [Anderson, Charles. "Docker [software engineering]." IEEE Software 32.3 (2015): 102-c3.](https://ieeexplore.ieee.org/abstract/document/7093032)
 21. [Parr, T. "The Definitive ANTLR 4 Reference, Oreilly and Associate Series, Pragmatic Programmers, LLC, 2013."](http://books.google.com.ar/books)
+22. [Hartig, Olaf, and Jorge Pérez. "An initial analysis of Facebook’s GraphQL language." AMW 2017 11th Alberto Mendelzon International Workshop on Foundations of Data Management and the Web, Montevideo, Uruguay, June 7-9, 2017.. Vol. 1912. Juan Reutter, Divesh Srivastava, 2017.](https://liu.diva-portal.org/smash/get/diva2:1141747/FULLTEXT01.pdf)
