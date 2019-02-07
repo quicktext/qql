@@ -5,14 +5,13 @@
 3. [DONE!]Refacting to the antlr version.
 4. [DONE!]Support Java, C Plus Plus, C Sharp, Swift, Javascript！
 
+# Courses of Quciktext Query Language
+
+[Courses of Quciktext Query Language ](courses.md)
+
 # Specification of Quciktext Query Language
 
 [Specification of Quicktext Query Language](specification.md)
-
-# Course of Quciktext Query Language
-
-[Course ](courses.md)
-
 
 # About Quicktext Query Language
 
