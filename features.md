@@ -65,7 +65,7 @@ The QQL **doesn't support all the data control language directly** because the a
 
 1. WHEN
 2. CRON
-3. UPDATE
+3. UPDATE (The UPDATE keyword in QQL and QQL is **not the same meaning**!)
 
 # Differences of Data Query Language (DQL)
 
@@ -73,14 +73,20 @@ The QQL **doesn't support all the data control language directly** because the a
 | Name | QQL  | SQL |  
 |-| :-: | :-: | 
 |SELECT| Supported | Supported | 
+|DISTINCT| **Not supported** | Supported | 
+|AND| **Not supported** | Supported | 
+|OR| **Not supported** | Supported | 
+|LIKE| **Not supported** | Supported | 
 |FROM| Supported | Supported | 
 |WHERE| Supported | Supported | 
 |SHOW| Supported | Supported | 
 |HELP| Supported | Supported | 
-|GROUP BY| Not supported | Supported | 
-|HAVING| Not supported | Supported | 
-|ORDER BY| Not supported directly, but supported in other keywords | Supported | 
+|GROUP BY| **Not supported** | Supported | 
+|HAVING| **Not supported** | Supported | 
+|ORDER BY| **Not supported directly**, but supported in other keywords | Supported | 
 |LIMIT| Supported | Supported | 
+
+The QQL **doesn't support keyword 'LIKE'** because the querying mechanism is similar to K-V querying.
 
 ## Additional keywords of the Quicktext Query Language (QQL)
 
@@ -110,7 +116,7 @@ The QQL **doesn't support all the data transaction language directly** because t
 ## Sample of SQL
 `select `
 
-`	'title','author','abstract','url'`
+`	'title','author','abstract','url','keyword'`
 
 `from `
 
@@ -118,9 +124,17 @@ The QQL **doesn't support all the data transaction language directly** because t
 
 `where `
 
-`	keyword=['media','AI','AI+media'] `
+`	keyword like '%media%'`
 
-` order by title`
+`  AND`
+
+`	keyword like '%AI%'`
+
+`  AND`
+
+`	keyword like '%AI%media%'`
+
+` order by title asc`
 
 `limit 0,1000`
 
@@ -128,7 +142,7 @@ The QQL **doesn't support all the data transaction language directly** because t
 
 `select `
 
-`	'title','author','abstract','url'`
+`	'title','author','abstract','url','keyword'`
 
 `from `
 
