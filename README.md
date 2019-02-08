@@ -1,4 +1,4 @@
-# Our slogen: Everybody should have a corpus analytical center!
+# Everybody should have a corpus analytical center!
 
 # Current working
 
