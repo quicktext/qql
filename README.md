@@ -1,3 +1,5 @@
+# Our slogen: Everybody should have a corpus analytical center!
+
 # Current working
 
 1. [DOING]Refacting the user manual.
