@@ -16,6 +16,10 @@
 
 [Specification of Quicktext Query Language](specification.md)
 
+# Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)
+
+[Features](features.md)
+
 # Transition Network Diagrams
 
 Comming soon...
@@ -80,9 +84,7 @@ The changelog will be updated every month.
 
 # Manual of the QQL Terminal
 
-[English Manual](#):Will update soon!
-
-[Chinese Manual](#):Will update soon!
+Comming soon...
 
 The current manual version is 0.0.1, but the current program is 0.0.2!
 
