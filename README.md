@@ -1,33 +1,4 @@
-# Everybody should have a corpus analytical center!
-
-# Future works
-
-- [ ] Refacting the user manual.
-- [x] Add model statement support. 
-- [x] Refacting to the antlr version.
-- [x] Support Java, C Plus Plus, C Sharp, Swift, Javascript！
-- [x] Integrated with JSON, TSV, CSV, XML, DOT, URL, EMAIL, GML, GraphML.
-
-# Courses of Quciktext Query Language
-
-[Courses of Quciktext Query Language ](courses.md)
-
-# Specification of Quciktext Query Language
-
-[Specification of Quicktext Query Language](specification.md)
-
-# Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)
-
-[Features](features.md)
-
-# Transition Network Diagrams
-
-Comming soon...
-
-# Abstract Syntax Tree
-
-Comming soon...
-
+# Everybody should have a corpus server!
 
 # About Quicktext Query Language
 
@@ -42,6 +13,24 @@ QuickCorpus is am implement of the Quicktext Query Language.
 It's developed by Genix when he began working in Quicktext Infotech Co., Ltd.
 
 It's the product of Quicktext Infotech Co., Ltd.
+
+# Document list:
+- [ ] Transition Network Diagrams
+- [ ] Abstract Syntax Tree
+- [x] [The life cycle of Quicktext Query Language](lifecycle.md)
+- [x] [Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)](features.md)
+- [x] [Specification of Quicktext Query Language](specification.md)
+- [x] [Courses of Quciktext Query Language ](courses.md)
+- [x] [ChangeLog of v0.0.2](changelog.md)
+
+# Future works
+
+- [ ] The user manual.
+- [x] Add model statement support. 
+- [x] Refacting to the antlr version.
+- [x] Support Java, C Plus Plus, C Sharp, Swift, Javascript！
+- [x] Integrated with JSON, TSV, CSV, XML, DOT, URL, EMAIL, GML, GraphML.
+
 
 # Quciktext Query Language Reference
 
@@ -78,21 +67,6 @@ Please click the program in the bin folder with the [debug.qprivate](http://www.
 
 The program will be updated every month.
 
-# ChangeLog of the QQL Terminal
-
-[ChangeLog](changelog.md)
-
-The changelog will be updated every month.
-
-# Manual of the QQL Terminal
-
-Comming soon...
-
-The current manual version is 0.0.1, but the current program is 0.0.2!
-
-We will update the manual on Feb, 2019.
-
-The changelog will be updated every three months.
 
 # About Genix
 
