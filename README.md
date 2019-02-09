@@ -3,7 +3,7 @@
 # Document list:
 - [ ] Transition Network Diagrams
 - [ ] Abstract Syntax Tree Diagrams
-- [x] [The life cycle of Quicktext Query Language](lifecycle.md)
+- [x] [The Life Cycle of Quicktext Query Language](lifecycle.md)
 - [x] [Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)](features.md)
 - [x] [Specification of Quicktext Query Language](specification.md)
 - [x] [Courses of Quciktext Query Language ](courses.md)
