@@ -73,10 +73,10 @@ Before ```step 3``` , the program will validate the license, schema and cached c
 
 1. Validating the license token and corpus token:
    1. Is the license token valid? 
-      1. If no, the program will exit and show a error message;
+      1. If no, the program will exit and show an error message;
       2. If yes, the program continues executing.
    2. Is the corpus token valid? 
-      1. If no, the program will exit and show a error message;
+      1. If no, the program will exit and show an error message;
       2. If yes, the program continues executing.
 2. Validating the schema.
    1. The schema is a valid [JSON](https://en.wikipedia.org/wiki/JSON) file.
@@ -85,9 +85,9 @@ Before ```step 3``` , the program will validate the license, schema and cached c
    4. Load the DTO class in the memory.
 3. Validating the cached corpus file (Coprus file uses the extension '.qcf'.):
    1. The default token validation program used the corpus token, such as the ```'tokenCssci'```. 
-      If failed, the program will request a new token by the username and password ignoring the cropus token in the statement. 
-      Is the corpus token valied? 
-      1. If no, the program will exit and show a error message;
+      If failed, the program will request a new token by the username and password ignoring the corpus token in the statement. 
+      Is the corpus token valid? 
+      1. If no, the program will exit and show an error message;
       2. If yes, the program continues executing.
    2. Is there a file called the ```'schema_schemaToken_corpus_corpusToken.qcf'```? 
       For example, is there a file called ```'Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf'```?
