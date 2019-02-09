@@ -1,4 +1,4 @@
-# Hello World from QQL!
+# Tutorials of the QQL!
 
 The Quicktext Query Language includes two parts:
 1. The Corpus Query Language (CQL) of the Quicktext Query Language (QQL)
@@ -35,13 +35,13 @@ which
    
    ```doc2vec``` is the ```query keyword```.
    
-   3. The which statement: ```which schema=['schema://username:password@schema.quickcopus.cn/ris/token'], corpus=['cssci'='http://username:password@corpus.quickcopus.cn/sci/token'],license=['license'='http://licence.quickcoprus.cn/token']```
+   3. The which statement: ```which schema=['schema://username:password@schema.quickcopus.cn/ris/tokenSchema'], corpus=['cssci'='http://username:password@corpus.quickcopus.cn/cssci/tokenCssci'],license=['license'='http://licence.quickcoprus.cn/tokenLicence']```
     
     The keyword ```schema``` indicates the schema of the query object. All the query fileds must belongs to the query object.
 
-   The value of schema includes the _schmema protocol_ ```schema://```, _schema server URL_ ```username:password@schema.quickcopus.cn```,  _schema class_ ```ris``` and _schema token_ ```schematoken```. The Token value is commonly a [UUID](https://en.wikipedia.org/wiki/UUID) value.
+   The value of schema includes the _schmema protocol_ ```schema://```, _schema server URL_ ```username:password@schema.quickcopus.cn```,  _schema class_ ```ris``` and _schema token_ ```tokenSchema```. The Token values are commonly [UUID](https://en.wikipedia.org/wiki/UUID) values.
 
-    The keyword ```corpus``` indicates the source of the corpus servers. The corpus statement includes a serials of [Maps](https://en.wikipedia.org/wiki/Hash_table). The key of map is ```cssci```, and the value of map is ```http://username:password@corpus.quickcopus.cn/sci/token```. 
+    The keyword ```corpus``` indicates the source of the corpus servers. The corpus statement includes a serials of [Maps](https://en.wikipedia.org/wiki/Hash_table). The key of map is ```cssci```, and the value of map is ```http://username:password@corpus.quickcopus.cn/cssci/tokenCssci```. 
    
 
 2. Constraint:
@@ -71,6 +71,8 @@ Before ```step 3``` , the compiler will check the decision table of the corpus a
 
 ### Figure.3 the decision table of the corpus
 
+#### Validating the licenses, schema and cached corpus.
+
 1. Validating the license token and corpus token:
    1. Is the license token valided? 
       1. If no, the program will exit and show a error message;
@@ -81,6 +83,17 @@ Before ```step 3``` , the compiler will check the decision table of the corpus a
 2. Validating the schema.
    1. The schema is a validated [JSON](https://en.wikipedia.org/wiki/JSON) file.
    2. The json file will be downloaded in the ```cache``` folder with the file name ```_class_ _ _token_ .json```, such as `ris_204c837db67e462987595675a78c7eca.json`.
-   3. Generate the [Data Transfer Object (DTO)](https://en.wikipedia.org/wiki/Data_transfer_object) according to the json file. The name of the DTO is ```_class_ _ _token_ .class```, such as `Ris204c837db67e462987595675a78c7eca.class`.
+   3. Generate the [Data Transfer Object (DTO)](https://en.wikipedia.org/wiki/Data_transfer_object) according to the json file. The name of the DTO is class_tokenSchema.class, such as `Ris_204c837db67e462987595675a78c7eca.class`.
+   4. Load the DTO class in the memory.
 
 3. Validating the cached corpus.
+   1. The default token validation program used the corpus token, such as the ```tokenCssci```. 
+      If failed, the program will request a new token by the username and password ignoring the cropus token in the statement. 
+      Is the corpus token valied? 
+      1. If no, the program will exit and show a error message;
+      2. If yes, the program continue executing.
+   2. Is there a file called the ```schema_schemaToken_corpus_corpusToken.qcf```? 
+      For example, is there a file called Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf?
+      Quicktext Coprus File uses the file extension '.qcf'.
+      1. If no, it indicates that there is no cached corpus now;
+      2. If yes, the qcf is the cached corpus file.
