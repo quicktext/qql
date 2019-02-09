@@ -65,33 +65,31 @@ The life cycle of the QQL includes five steps:
 4. The Pager module
 5. The OS Interface 
 
-In the ```step 1``` and ```step 2```, the program will parse the abstarct syntax tree in the Figure.2
+In the ```step 1``` and ```step 2```, the program will parse the abstract syntax tree in the Figure.2
 
 Before ```step 3``` , the program will validate the license, schema and cached corpus according to the the validating decision table.
 
 ## The validating decision table.
 
 1. Validating the license token and corpus token:
-   1. Is the license token valided? 
+   1. Is the license token valid? 
       1. If no, the program will exit and show a error message;
       2. If yes, the program continue executing.
-   2. Is the corpus token valided? 
+   2. Is the corpus token valid? 
       1. If no, the program will exit and show a error message;
       2. If yes, the program continue executing.
 2. Validating the schema.
-   1. The schema is a validated [JSON](https://en.wikipedia.org/wiki/JSON) file.
+   1. The schema is a valid [JSON](https://en.wikipedia.org/wiki/JSON) file.
    2. The json file will be downloaded in the ```cache``` folder with the file name ```_class_ _ _token_ .json```, such as `ris_204c837db67e462987595675a78c7eca.json`.
    3. Generate the [Data Transfer Object (DTO)](https://en.wikipedia.org/wiki/Data_transfer_object) according to the json file. The name of the DTO is class_tokenSchema.class, such as `Ris_204c837db67e462987595675a78c7eca.class`.
    4. Load the DTO class in the memory.
-
-3. Validating the cached corpus.
-   1. The default token validation program used the corpus token, such as the ```tokenCssci```. 
+3. Validating the cached corpus file (Coprus file uses the extension '.qcf'.):
+   1. The default token validation program used the corpus token, such as the ```'tokenCssci'```. 
       If failed, the program will request a new token by the username and password ignoring the cropus token in the statement. 
       Is the corpus token valied? 
       1. If no, the program will exit and show a error message;
       2. If yes, the program continue executing.
-   2. Is there a file called the ```schema_schemaToken_corpus_corpusToken.qcf```? 
-      For example, is there a file called ```Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf```?
-      Quicktext Coprus File uses the file extension '.qcf'.
+   2. Is there a file called the ```'schema_schemaToken_corpus_corpusToken.qcf'```? 
+      For example, is there a file called ```'Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf'```?
       1. If no, it indicates that there is no cached corpus now;
-      2. If yes, the qcf is the cached corpus file.
+      2. If yes, the 'qcf' is the cached corpus file.
