@@ -96,7 +96,7 @@ Before the ```step 3``` , the program will validate the license, schema and cach
  
 ## Figure.3 The validating decision table diagram
  
-## Initialize the cache corpus. 
+## Initialize the cache corpus and fetch the corpus
  
 1. If 'qcf' file is existed, then the program will load the 'qcf' file.
 2. If 'qcf' file is not existed, then the program will create the 'qcf' file in the background.
@@ -164,4 +164,20 @@ Aftering storing the meta corpus, the program will change the state in the URL c
 
 The FULLTEXT CORPUS continues fetching the full-text corpus and storing in the FULLTEXT CORPUS.
 
-The fulltext corpus fetching thread is **asynchronous**.
+The full text corpus fetching thread is **asynchronous**.
+
+## Query the corpus.
+
+After fetching the corpus, the program will show the result accoring to the 'query statement'.
+
+The 'query statement' contains the filed name to be showed.
+
+All the fields exclude the fulltext store in the META CORUBS.
+
+The indexer of the META CORPUS is base on the B* Tree which the indexer of FULLTEXT CORPUS is base on the [Apache Lucene](http://lucene.apache.org)
+
+## The screenshot
+
+You can run the demo script in Quicktext Query Language Terminal 0.0.3.
+
+By Genix
