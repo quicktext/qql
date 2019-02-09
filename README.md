@@ -52,11 +52,11 @@ Now he works in Quicktext Infotech Co., Ltd in China.
 
 # Contact Us
 
-Genix's mail(only for technology questions): genix@quicktex.cn
+Genix's mail (only for technology questions): genix@quicktex.cn
 
-Genix's twitter(only for technology questions): [@realGenix](https://twitter.com/realGenix)
+Genix's twitter (only for technology questions): [@realGenix](https://twitter.com/realGenix)
 
-Company email(for other questions): support@quicktext.cn
+Company email (for other questions): support@quicktext.cn
 
 Company website: <http://www.quicktext.cn>
 
