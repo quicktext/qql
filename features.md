@@ -53,19 +53,21 @@ The QQL **doesn't support all the data control language directly** because the a
 | Name | QQL  | SQL |  
 |-| :-: | :-: | 
 | INSERT | Supported, but maintained automatically, and invisible to users| Supported and maintained by the program| 
-| UPDATE | Supported, but maintained automatically, and invisible to users| Supported and maintained by the program| 
-| DELETE | Supported and maintained by the program, and invisible to users | Supported and maintained by the program| 
-| DELETE | Supported and maintained by the program, and invisible to users | Supported and maintained by the program| 
-|MERGE| Not supported | Supported and maintained by the program | 
-|CALL|  Not supported directly, but supported in other keywords| Supported and maintained by the program | 
-|EXPLAIN PLAN| Not supported directly, but replaced by keyword *cron* | Supported and maintained by the program | 
-|LOCK TABLE| Not supported | Supported and maintained by the program | 
+| UPDATE | Supported, but maintained automatically, and visible to users| Supported and maintained by the program| 
+| DELETE | Supported and maintained by the program, and visible to users | Supported and maintained by the program| 
+| MERGE | Not supported | Supported and maintained by the program | 
+| CALL |  Not supported directly, but supported in other keywords| Supported and maintained by the program | 
+| EXPLAIN PLAN| Not supported directly, but replaced by keyword *cron* | Supported and maintained by the program | 
+| LOCK TABLE| Not supported | Supported and maintained by the program | 
 
 ## Additional keywords of the Quicktext Query Language (QQL)
 
 1. WHEN
 2. CRON
-3. UPDATE (The UPDATE keyword in QQL and QQL is **not the same meaning**!)
+3. UPDATE (The UPDATE keyword in QQL and QQL is **not the same meaning**! UPDATE keyword only have three types: LAZY, LOCAL and REMOTE!)
+4. DELTEE (The DELETE keyword in QQL and QQL is **not the same meaning**!)
+5. CLEAN
+6. VACUUM
 
 # Differences of Data Query Language (DQL)
 
