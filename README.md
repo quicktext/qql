@@ -18,7 +18,7 @@ Please click the program in the bin folder with the [debug.qprivate](http://www.
 
 ## Documents for designers of QQL compiler
 - [x] [How to take part in designing the compiler?](how.md)
-- [x] [Quciktext Query Language Reference](references.md)
+- [x] [Quicktext Query Language Reference](references.md)
 - [ ] Transition Network Diagrams
 - [ ] Abstract Syntax Tree Diagrams
 
