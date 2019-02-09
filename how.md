@@ -1,4 +1,4 @@
-# QQL Courses
+# How to take part in designing the compiler?
 
 ## Background
 
