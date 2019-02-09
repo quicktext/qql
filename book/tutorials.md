@@ -22,11 +22,11 @@ which
 		'cssci'='http://username:password@corpus.quickcopus.cn/sci/corpustoken'],
 	license=[
 		'license'='http://licence.quickcoprus.cn/token']
-/*If you run on the web terminal of the www.quickcorpus.cn then you don't need a licence!*/;
+/*If you run on the web terminal of the www.quickcorpus.cn then you don't need a license!*/;
 ```
 ## Description of File.1
 
-1. The simplest statement includes three essential statments:
+1. The simplest statement includes three essential statements:
    1. The query statement:  ```select 'title','author','abstract','url' from 'cssci'```
 
    ```'title','author','abstract','url'``` are called ```query _fileds_```, and ```cssci``` is called ```query _corpus_```.
@@ -37,16 +37,16 @@ which
    
    3. The which statement: ```which schema=['schema://username:password@schema.quickcopus.cn/ris/tokenSchema'], corpus=['cssci'='http://username:password@corpus.quickcopus.cn/cssci/tokenCssci'],license=['license'='http://licence.quickcoprus.cn/tokenLicence']```
     
-    The keyword ```schema``` indicates the schema of the query object. All the query fileds must belongs to the query object.
+    The keyword ```schema``` indicates the schema of the query object. All the query fileds must belong to the query object.
 
-   The value of schema includes the _schmema protocol_ ```schema://```, _schema server URL_ ```username:password@schema.quickcopus.cn```,  _schema class_ ```ris``` and _schema token_ ```tokenSchema```. The Token values are commonly [UUID](https://en.wikipedia.org/wiki/UUID) values.
+   The value of schema includes the _schema protocol_ ```schema://```, _schema server URL_ ```username:password@schema.quickcopus.cn```,  _schema class_ ```ris``` and _schema token_ ```tokenSchema```. The Token values are commonly [UUID](https://en.wikipedia.org/wiki/UUID) values.
 
     The keyword ```corpus``` indicates the source of the corpus servers. The corpus statement includes a serials of [Maps](https://en.wikipedia.org/wiki/Hash_table). The key of map is ```cssci```, and the value of map is ```http://username:password@corpus.quickcopus.cn/cssci/tokenCssci```. 
    
 
 2. Constraint:
-   1. In this statement, we can download the data from the corpus server according to the which statment. 
-   2. If you run on the web terminal of the www.quickcorpus.cn then you don't need a licence!
+   1. In this statement, we can download the data from the corpus server according to the which statement. 
+   2. If you run on the web terminal of the www.quickcorpus.cn then you don't need a license!
 
 ## Figure.1 The life cycle of the QQL
 
@@ -67,7 +67,7 @@ The life cycle of the QQL includes five steps:
 
 In the ```step 1``` and ```step 2```, the program will parse the abstract syntax tree in the Figure.2
 
-Before ```step 3``` , the program will validate the license, schema and cached corpus according to the the validating decision table.
+Before the ```step 3``` , the program will validate the license, schema and cached corpus according to the validating decision table.
 
 ## The validating decision table.
 
@@ -116,13 +116,13 @@ There are three corpuses in the 'Ris_204c837db67e462987595675a78c7eca_cssci_6b91
 2. META CORPUS: storing the corpus fields 'Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd_meta'. The definitions come from the corpus schema.
 3. FULLTEXT CORPUS: storing the full text of the corpuses with the corpus name 'Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd_fulltext'. The FULLTEXT CORPUS doesn't index the data directly, this is **a very important difference** when compared to SQL databases!
 
-All the identifiers are using the UUID. For every copus.
+All the identifiers are using the UUID. For every corpus.
 The data structure of these corpuses contains a B+ Tree and a B* Tree.
 If you want to understand the principles of the B+ Tree and the B* Tree, please read the chapter 11 of the book ['Essential Algorithms'](http://shop.oreilly.com/product/9781118612101.do) by Rod Stephens.
 On the other hand, the Quickcorpus doesn't lock the file and support the transaction in the file layer for high performance. This is **another very important difference** when compared to SQL databases!
 
-2. Excuting the Coprus Manipulation Language (CML) in the background automatically: 
-Although the CML doesn't design the 'INSERT STATEMENT', yet the following steps is similar to the SQL procedure.
+2. Executing the Coprus Manipulation Language (CML) in the background automatically: 
+Although the CML doesn't design the 'INSERT STATEMENT', yet the following steps are similar to the SQL procedure.
 ```SQL
 INSERT INTO TABLE URL CORPUS VALUES (?,?,?...?);
 INSERT INTO TABLE URL CORPUS VALUES (?,?,?...?);
@@ -130,14 +130,14 @@ INSERT INTO TABLE URL CORPUS VALUES (?,?,?...?);
 ```
 **We don't design the 'insert' statement because the inserting mechanism of the QQL and SQL are totally different!**
 
-For the SQL, it's following the [ACID](https://en.wikipedia.org/wiki/ACID) theroy; howerver, the QQL is following the [CAP](https://en.wikipedia.org/wiki/CAP_theorem) theroy.
+For the SQL, it's following the [ACID](https://en.wikipedia.org/wiki/ACID) theory; however, the QQL is following the [CAP](https://en.wikipedia.org/wiki/CAP_theorem) theory.
 
 1. URL CORPUS
-Send a request to the corpus servers with aruguments 'keywords'. 
+Send a request to the corpus servers with arguments 'keywords'. 
 
 For example, send a request URL like ```'http://cssci.doi.ai/json/?q=(content:doc2vec)'```. 
 
-Then reture the total size of the records from the remote server. 
+Then return the total size of the records from the remote server. 
 
 According to our experiences, we design the minimum batch task number is ***one hundred***. 
 
@@ -145,14 +145,14 @@ We called one hundred record a task and a task group contains many tasks.
 
 We design this mechanism is for multithreading fetching.
 
-The URL corpus is used for record the fetching states. The states includes the init state, fetching state, completed state and error state.
+The URL corpus is used to record the fetching states. The states include the init state, fetching state, completed state and error state.
 
 2. META CORPUS
 After fetching a task from the URL CORPUS, then program run a the fetching thread.
 
 When a task has set up, the program will change all the init state in the URL corpus to fetching state.
 
-One the other hand, the program will fetch the corpuses from the remotre servers according to the corpus schema excule a specail field "fulltext".
+One the other hand, the program will fetch the corpuses from the remotre servers according to the corpus schema excuse a special field "fulltext".
 
 The filed 'fulltext' will be processed in the FULLTEXT CORPUS, not in the META CORPUS.
 
