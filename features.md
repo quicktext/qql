@@ -113,103 +113,39 @@ The QQL **doesn't support all the data transaction language directly** because t
 1. PLUGINS
 
 # Samples
-## Sample of SQL
+# The content of _demo.sql_
 
 ```
-select 
-
-	'title','author','abstract','url','keyword'
-
-from 
-
-	'cssci','cscd','patent'
-
-where 
-
-	keyword like '%media%'
-
-  AND
-
-	keyword like '%AI%'
-
-  AND
-
-	keyword like '%AI%media%'
-
- order by title asc
-
-limit 0,1000
+LINE1: select 'title','author','abstract','url','keyword'
+LINE2: from 'cssci','cscd','patent'
+LINE3: where keyword like '%media%'
+LINE4: AND keyword like '%AI%'
+LINE5: AND keyword like '%AI%media%'
+LINE6: order by title asc
+LINE7: limit 0,1000
 ```
-
-## Sample of QQL
+# The content of _demo.qql_
 
 ```
-select 
-
-	'title','author','abstract','url','keyword'
-
-from 
-
-	'cssci','cscd','patent'
-
-where 
-
-	keyword=['media','AI','AI+media'] 
-
-when 
-
-	cron=['0,0,0,0,0,0,0']
-
-	limit 0,1000 
-
-	update = cache 
-
-do 
-
-	sort = ['year' = asc,'name' = asc],
-
-	filter = ['name' = 'information','year' = 'analytics'],
-
-	black filter = ['name'='data','year'='research']
-
-with 
-
-	plugins=['mail'='genix@quicktext.cn','sms'='+8600000000000']
-
-which 
-
-	schema=[
-
-		'schema://username:password@schema.quickcopus.cn/ris/token1'], 
-
-	model=[
-
-		'tensorflow'='D:/google.model','caffe'='C:/berkery.model'],
-
-	corpus=[
-
-		'cssci://username:password@corpus.quickcopus.cn/cssci/token1',
-
-		'cscd://username:password@corpus.quickcopus.cn/cscd/token2',
-
-		'patent://username:password@corpus.quickcopus.cn/sci/token3'],
-
-	plugin=[
-
-		'mail://username:password@action.quickcorpus.cn/mail/token4',
-
-		'sms://username:password@action.quickcorpus.cn/sms/token5'],
-
-	daemon=[
-
-		'daemon://username:password@daemon.quickcoprus.cn/cron/token6',
-
-		'daemon://username:password@daemon.quickcoprus.cn/cron/token7',
-
-		'daemon://username:password@daemon.quickcoprus.cn/cron/token8']
-
-	certificate=[
-
-	     'certificate://licence.quickcoprus.cn/UUID']
-  
+LINE1: select 'title','author','abstract','url','keyword'
+LINE2: from 'cssci','cscd','patent'
+LINE3: where keyword=['media','AI','AI+media'] 
+LINE4: when cron=['0,0,0,0,0,0,0']
+LINE5: limit 0,1000 
+LINE6: update = cache 
+LINE7: do sort = ['year' = asc,'name' = asc],
+LINE8: filter = ['name' = 'information','year' = 'analytics'],
+LINE9: black filter = ['name'='data','year'='research']
+LINE10: with plugins=['mail'='genix@quicktext.cn','sms'='+8600000000000']
+LINE11: which schema=['schema://username:password@schema.quickcopus.cn/ris/token1'], 
+LINE12: model=['tensorflow'='D:/google.model','caffe'='C:/berkery.model'],
+LINE13: corpus=['cssci://username:password@corpus.quickcopus.cn/cssci/token1',
+LINE14:         'cscd://username:password@corpus.quickcopus.cn/cscd/token2',
+LINE15:         'patent://username:password@corpus.quickcopus.cn/sci/token3'],
+LINE16: plugin=['mail://username:password@action.quickcorpus.cn/mail/token4',
+LINE17:       	'sms://username:password@action.quickcorpus.cn/sms/token5'],
+LINE18: daemon=['daemon://username:password@daemon.quickcoprus.cn/cron/token6',
+LINE19: 		    'daemon://username:password@daemon.quickcoprus.cn/cron/token7',
+LINE20:     	  'daemon://username:password@daemon.quickcoprus.cn/cron/token8']
+LINE21: certificate=['certificate://licence.quickcoprus.cn/UUID']
 ```	
