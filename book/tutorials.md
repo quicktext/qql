@@ -96,5 +96,5 @@ Before ```step 3``` , the program will validate the license, schema and cached c
  
  ## Figure.3 The validating decision table diagram
  
- 
+ ## Initialize the cache corpus. 
 
