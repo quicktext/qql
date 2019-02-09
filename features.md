@@ -114,97 +114,102 @@ The QQL **doesn't support all the data transaction language directly** because t
 
 # Samples
 ## Sample of SQL
-`select `
 
-`	'title','author','abstract','url','keyword'`
+```
+select 
 
-`from `
+	'title','author','abstract','url','keyword'
 
-`	'cssci','cscd','patent'`
+from 
 
-`where `
+	'cssci','cscd','patent'
 
-`	keyword like '%media%'`
+where 
 
-`  AND`
+	keyword like '%media%'
 
-`	keyword like '%AI%'`
+  AND
 
-`  AND`
+	keyword like '%AI%'
 
-`	keyword like '%AI%media%'`
+  AND
 
-` order by title asc`
+	keyword like '%AI%media%'
 
-`limit 0,1000`
+ order by title asc
+
+limit 0,1000
+```
 
 ## Sample of QQL
 
-`select `
+```
+select 
 
-`	'title','author','abstract','url','keyword'`
+	'title','author','abstract','url','keyword'
 
-`from `
+from 
 
-`	'cssci','cscd','patent'`
+	'cssci','cscd','patent'
 
-`where `
+where 
 
-`	keyword=['media','AI','AI+media'] `
+	keyword=['media','AI','AI+media'] 
 
-`when `
+when 
 
-`	cron=['0,0,0,0,0,0,0']`
+	cron=['0,0,0,0,0,0,0']
 
-`	limit 0,1000 `
+	limit 0,1000 
 
-`	update = cache` 
+	update = cache 
 
-`do `
+do 
 
-`	sort = ['year' = asc,'name' = asc],`
+	sort = ['year' = asc,'name' = asc],
 
-`	filter = ['name' = 'information','year' = 'analytics'],`
+	filter = ['name' = 'information','year' = 'analytics'],
 
-`	black filter = ['name'='data','year'='research']`
+	black filter = ['name'='data','year'='research']
 
-`with `
+with 
 
-`	plugins=['mail'='genix@quicktext.cn','sms'='+8600000000000']`
+	plugins=['mail'='genix@quicktext.cn','sms'='+8600000000000']
 
-`which `
+which 
 
-`	schema=[`
+	schema=[
 
-`		'schema://username:password@schema.quickcopus.cn/ris/token1'], `
+		'schema://username:password@schema.quickcopus.cn/ris/token1'], 
 
-`	model=[`
+	model=[
 
-`		'tensorflow'='D:/google.model','caffe'='C:/berkery.model'],`
+		'tensorflow'='D:/google.model','caffe'='C:/berkery.model'],
 
-`	corpus=[`
+	corpus=[
 
-`		'cssci://username:password@corpus.quickcopus.cn/cssci/token1',`
+		'cssci://username:password@corpus.quickcopus.cn/cssci/token1',
 
-`		'cscd://username:password@corpus.quickcopus.cn/cscd/token2',`
+		'cscd://username:password@corpus.quickcopus.cn/cscd/token2',
 
-`		'patent://username:password@corpus.quickcopus.cn/sci/token3'],`
+		'patent://username:password@corpus.quickcopus.cn/sci/token3'],
 
-`	plugin=[`
+	plugin=[
 
-`		'mail://username:password@action.quickcorpus.cn/mail/token4',`
+		'mail://username:password@action.quickcorpus.cn/mail/token4',
 
-`		'sms://username:password@action.quickcorpus.cn/sms/token5'],`
+		'sms://username:password@action.quickcorpus.cn/sms/token5'],
 
-`	daemon=[`
+	daemon=[
 
-`		'daemon://username:password@daemon.quickcoprus.cn/cron/token6',`
+		'daemon://username:password@daemon.quickcoprus.cn/cron/token6',
 
-`		'daemon://username:password@daemon.quickcoprus.cn/cron/token7',`
+		'daemon://username:password@daemon.quickcoprus.cn/cron/token7',
 
-`		'daemon://username:password@daemon.quickcoprus.cn/cron/token8']`
+		'daemon://username:password@daemon.quickcoprus.cn/cron/token8']
 
-`	certificate=[`
+	certificate=[
 
-`		'certificate://licence.quickcoprus.cn/UUID']`
-
+	     'certificate://licence.quickcoprus.cn/UUID']
+  
+```	
