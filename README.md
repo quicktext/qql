@@ -8,6 +8,7 @@
 - [x] [Specification of Quicktext Query Language](specification.md)
 - [x] [Courses of Quciktext Query Language ](courses.md)
 - [x] [Quciktext Query Language Reference](references.md)
+- [x] [Other Languages](otherlanguage.md)
 - [x] [ChangeLog of v0.0.2](changelog.md)
 
 # Future works
