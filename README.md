@@ -43,7 +43,9 @@ It's the product of Quicktext Infotech Co., Ltd.
 
 # About Genix
 
-Genix is a Java coder. He began learning Java Programming since 2003.
+Genix is a Java coder. 
+
+He began learning Java Programming since 2003.
 
 He was awarded a bachelor's degree in 2010, a master's degree in 2012 and a doctor's degree in 2016. 
 
@@ -51,13 +53,34 @@ He completed his postdoctoral research in 2018.
 
 Now he works in Quicktext Infotech Co., Ltd in China.
 
-# Contact Us
+# Contact Genix
 
-Genix's mail (only for technology questions): genix@quicktex.cn
+***Only*** reply for ***technology*** questions, other questions ***please contact to the company***!
+ 
+Genix's email : ***genix@quicktext.cn***
 
-Genix's twitter (only for technology questions): [@realGenix](https://twitter.com/realGenix)
+Genix ***don't use wechat and other social Internet messages***, ***only*** use email and mail list!
 
-Company email (for other questions): support@quicktext.cn
+# Contact Company (For any questions)
 
-Company website: <http://www.quicktext.cn>
+**China**
+Mr Ding 
+E-mail: alex@quicktext.cn
+QQ: 635512001
+WeChat: 18652029400
+Mobile: 18652029400
+
+**For Other countries**
+Mr Li 
+Business manager 
+E-mail: you.li@quicktext.cn
+QQ: 1169195645
+WeChat: LY10184712
+Mobile: 13125091018
+
+Company website: 
+<http://www.quicktext.cn>
+
+Genix's twitter(***maintained by the company***): 
+[@realGenix](https://twitter.com/realGenix)
 
