@@ -1,12 +1,12 @@
 # Everybody should have a corpus analytical center!
 
-# Current working
+# Future works
 
-1. [DOING]Refacting the user manual.
-2. [DONE]Add model statement support. 
-3. [DONE!]Refacting to the antlr version.
-4. [DONE!]Support Java, C Plus Plus, C Sharp, Swift, Javascript！
-5. [DONE!]Integrated with JSON, TSV, CSV, XML, DOT, URL, EMAIL, GML, GraphML.
+- [ ] Refacting the user manual.
+- [x] Add model statement support. 
+- [x] Refacting to the antlr version.
+- [x] Support Java, C Plus Plus, C Sharp, Swift, Javascript！
+- [x] Integrated with JSON, TSV, CSV, XML, DOT, URL, EMAIL, GML, GraphML.
 
 # Courses of Quciktext Query Language
 
@@ -36,6 +36,8 @@ Quicktext Query Language is called QQL for short.
 It's a new domain-specific language oriented to the scientific research and data mining.
 
 It's used for processing the corpus, especially for the researchers of information science.
+
+QuickCorpus is am implement of the Quicktext Query Language.
 
 It's developed by Genix when he began working in Quicktext Infotech Co., Ltd.
 
