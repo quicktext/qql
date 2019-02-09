@@ -176,7 +176,7 @@ The QQL **doesn't support all the data transaction language directly** because t
 
 `	schema=[`
 
-`		'graphql://username:password@schema.quickcopus.cn/ris/token1'], `
+`		'schema://username:password@schema.quickcopus.cn/ris/token1'], `
 
 `	model=[`
 
