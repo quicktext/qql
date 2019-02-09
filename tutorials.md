@@ -81,7 +81,7 @@ Before ```step 3``` , the program will validate the license, schema and cached c
 2. Validating the schema.
    1. The schema is a valid [JSON](https://en.wikipedia.org/wiki/JSON) file.
    2. The json file will be downloaded in the ```cache``` folder with the file name ```'class_token.json'```, such as ```'ris_204c837db67e462987595675a78c7eca.json'```.
-   3. Generate the [Data Transfer Object (DTO)](https://en.wikipedia.org/wiki/Data_transfer_object) according to the json file. The name of the DTO is class_tokenSchema.class, such as ```'Ris_204c837db67e462987595675a78c7eca.class'```.
+   3. Generate the [Data Transfer Object (DTO)](https://en.wikipedia.org/wiki/Data_transfer_object) according to the json file. The name of the DTO is class_tokenSchema.class, such as ```'Ris_204c837db67e462987595675a78c7eca.class'```. The generator is based on the (ASM)[https://asm.ow2.io/] library.
    4. Load the DTO class in the memory.
 3. Validating the cached corpus file (Coprus file uses the extension '.qcf'.):
    1. The default token validation program used the corpus token, such as the ```'tokenCssci'```. 
@@ -93,3 +93,8 @@ Before ```step 3``` , the program will validate the license, schema and cached c
       For example, is there a file called ```'Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf'```?
       1. If no, it indicates that there is no cached corpus now;
       2. If yes, the 'qcf' is the cached corpus file.
+ 
+ ## Figure.3 The validating decision table diagram
+ 
+ 
+
