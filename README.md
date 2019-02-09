@@ -1,32 +1,25 @@
 # Everybody should have a corpus server!
 
-# Document list:
-- [ ] Transition Network Diagrams
-- [ ] Abstract Syntax Tree Diagrams
-- [x] [The Life Cycle of Quicktext Query Language](lifecycle.md)
-- [x] [Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)](features.md)
-- [x] [Specification of Quicktext Query Language](specification.md)
-- [x] [Courses of Quciktext Query Language ](courses.md)
-- [x] [Quciktext Query Language Reference](references.md)
-- [x] [Other Languages](otherlanguage.md)
-- [x] [ChangeLog of v0.0.2](changelog.md)
-
-# Future works
-
+# Documents:
+## Documents for beginners:
 - [ ] The user manual.
-- [x] Add model statement support. 
-- [x] Refacting to the antlr version.
-- [x] Support Java, C Plus Plus, C Sharp, Swift, Javascript！
-- [x] Integrated with JSON, TSV, CSV, XML, DOT, URL, EMAIL, GML, GraphML.
-
-
-# Download the QQL Terminal v0.0.2
-
-<https://github.com/quicktext/qql/releases>
+- [x] [Download the QQL Terminal v0.0.2](https://github.com/quicktext/qql/releases)
+- [x] [ChangeLog of v0.0.2](changelog.md)
 
 Please click the program in the bin folder with the [debug.qprivate](http://www.quicktext.cn/debug.qprivate) in the root folder.
 
+## Documents for developers:
+- [ ] The development manual.
+- [x] [Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)](features.md)
+- [x] [The Life Cycle of Quicktext Query Language](lifecycle.md)
+- [x] [Specification of Quicktext Query Language](specification.md)
+- [x] [Other Languages](otherlanguage.md)
 
+## Documents for designers of QQL compiler:
+- [x] [How to take part in designing the compiler?](how.md)
+- [x] [Quciktext Query Language Reference](references.md)
+- [ ] Transition Network Diagrams
+- [ ] Abstract Syntax Tree Diagrams
 
 # About Quicktext Query Language
 
