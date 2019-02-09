@@ -8,8 +8,8 @@ In this section, I will give some demos for learning the CCL of the QQL.
 
 The demos are written in the Java Language, but you can use any other languages as well.
 
-## The simplest CCL statement
-> Filename : _CCL1.qql_
+# DEMO1: The simplest CCL statement
+## Filename : _CCL1.qql_
 ```SQL
 select 'title','author','abstract','url' from 'cssci'
 where keyword=['doc2vec'] 
@@ -25,6 +25,6 @@ which
 
 ## The abstract syntax of _CCL1.qql_
 
-![The abstract syntax tree of CCL1]<images/ccl1._ast.png>
+![The abstract syntax tree of CCL1](images/ccl1._ast.png)
 
 
