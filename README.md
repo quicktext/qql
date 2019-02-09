@@ -57,9 +57,9 @@ Now he works in Quicktext Infotech Co., Ltd in China.
 
 ***Only*** reply for ***technology*** questions, other questions ***please contact with the company***!
  
-Genix's email : ***genix@quicktext.cn***
+Genix's email: ***genix@quicktext.cn***
 
-Genix ***doesn't*** use any social instant messages such as the ***wechat*** and ***telegram***, ***only*** use the email!
+Genix ***doesn't*** use any social instant messages such as the ***Wechat*** and ***Telegram***, ***only*** use the email!
 
 # Contact Company (For any questions)
 
