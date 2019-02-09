@@ -55,11 +55,11 @@ Now he works in Quicktext Infotech Co., Ltd in China.
 
 # Contact Genix
 
-***Only*** reply for ***technology*** questions, other questions ***please contact to the company***!
+***Only*** reply for ***technology*** questions, other questions ***please contact with the company***!
  
 Genix's email : ***genix@quicktext.cn***
 
-Genix ***don't use any social instant messages such as the wechat and telegram ***, ***only*** use the email!
+Genix ***doesn't*** use any social instant messages such as the ***wechat*** and ***telegram***, ***only*** use the email!
 
 # Contact Company (For any questions)
 
@@ -71,7 +71,7 @@ E-mail: alex@quicktext.cn
 
 QQ: 635512001
 
-WeChat: 18652029400
+Wechat: 18652029400
 
 Mobile: 18652029400
 
@@ -85,12 +85,12 @@ E-mail: you.li@quicktext.cn
 
 QQ: 1169195645
 
-WeChat: LY10184712
+Wechat: LY10184712
 
 Mobile: 13125091018
 
 Company website: 
 <http://www.quicktext.cn>
 
-Genix's twitter(***maintained by the company***): [@realGenix](https://twitter.com/realGenix)
+Genix's twitter (***maintained by the company***): [@realGenix](https://twitter.com/realGenix)
 
