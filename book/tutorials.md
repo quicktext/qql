@@ -37,11 +37,11 @@ which
    
    3. The which statement: ```which schema=['schema://username:password@schema.quickcopus.cn/ris/tokenSchema'], corpus=['cssci'='http://username:password@corpus.quickcopus.cn/cssci/tokenCssci'],license=['license'='http://licence.quickcoprus.cn/tokenLicence']```
     
-    The keyword ```schema``` indicates the schema of the query object. All the query fileds must belong to the query object.
+    The keyword ```schema``` indicates the schema of the query object. All the ```query fileds``` must belong to the query object.
 
    The value of schema includes the _schema protocol_ ```schema://```, _schema server URL_ ```username:password@schema.quickcopus.cn```,  _schema class_ ```ris``` and _schema token_ ```tokenSchema```. The Token values are commonly [UUID](https://en.wikipedia.org/wiki/UUID) values.
 
-    The keyword ```corpus``` indicates the source of the corpus servers. The corpus statement includes a serials of [Maps](https://en.wikipedia.org/wiki/Hash_table). The key of map is ```cssci```, and the value of map is ```http://username:password@corpus.quickcopus.cn/cssci/tokenCssci```. 
+    The keyword ```corpus``` indicates the source of the corpus servers. The corpus statement includes a series of [Maps](https://en.wikipedia.org/wiki/Hash_table). The key of the map is ```cssci```, and the value of the map is ```http://username:password@corpus.quickcopus.cn/cssci/tokenCssci```. 
    
 
 2. Constraint:
@@ -121,7 +121,7 @@ The data structure of these corpuses contains a B+ Tree and a B* Tree.
 If you want to understand the principles of the B+ Tree and the B* Tree, please read the chapter 11 of the book ['Essential Algorithms'](http://shop.oreilly.com/product/9781118612101.do) by Rod Stephens.
 On the other hand, the Quickcorpus doesn't lock the file and support the transaction in the file layer for high performance. This is **another very important difference** when compared to SQL databases!
 
-2. Executing the Coprus Manipulation Language (CML) in the background automatically: 
+2. Executing the Corpus Manipulation Language (CML) in the background automatically: 
 Although the CML doesn't design the 'INSERT STATEMENT', yet the following steps are similar to the SQL procedure.
 ```SQL
 INSERT INTO TABLE URL CORPUS VALUES (?,?,?...?);
@@ -152,8 +152,16 @@ After fetching a task from the URL CORPUS, then program run a the fetching threa
 
 When a task has set up, the program will change all the init state in the URL corpus to fetching state.
 
-One the other hand, the program will fetch the corpuses from the remotre servers according to the corpus schema excuse a special field "fulltext".
+One the other hand, the program will fetch the corpuses from the remote servers according to the corpus schema excuse a special field "fulltext".
+
+The meta corpus fetching thread is **synchronous** in a task.
 
 The filed 'fulltext' will be processed in the FULLTEXT CORPUS, not in the META CORPUS.
 
+Aftering storing the meta corpus, the program will change the state in the URL corpus.
+
 3. FULLTEXT CORPUS
+
+The FULLTEXT CORPUS continues fetching the full-text corpus and storing in the FULLTEXT CORPUS.
+
+The fulltext corpus fetching thread is **asynchronous**.
