@@ -12,6 +12,8 @@ By Genix
 | CORPUS | TABLE | 
 | CORPUSES | DATABASE |
 
+The QQL is oriented to the corpuses which the SQL is oriented to the dabatabase.
+
 # Differences of Data Definition Language (DDL)
 
 ## Differences of lexical analysis
