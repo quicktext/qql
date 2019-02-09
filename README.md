@@ -3,7 +3,7 @@
 # Documents
 ## Documents for beginners
 - [ ] The user manual
-- [x] [FAQ](faq.md)
+- [x] [Frequently Asked Questions](faq.md)
 - [x] [The tutorials](tutorials.md)
 - [x] [Download the QQL Terminal v0.0.2](https://github.com/quicktext/qql/releases)
 - [x] [ChangeLog of v0.0.2](changelog.md)
