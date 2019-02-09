@@ -3,6 +3,7 @@
 # Documents
 ## Documents for beginners
 - [ ] The user manual
+- [x] The helloworld courses
 - [x] [Download the QQL Terminal v0.0.2](https://github.com/quicktext/qql/releases)
 - [x] [ChangeLog of v0.0.2](changelog.md)
 
