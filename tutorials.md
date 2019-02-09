@@ -65,13 +65,11 @@ The life cycle of the QQL includes five steps:
 4. The Pager module
 5. The OS Interface 
 
-In the ```step 1``` and ```step 2```, the compiler will parse the abstarct syntax tree in the Figure.2
+In the ```step 1``` and ```step 2```, the program will parse the abstarct syntax tree in the Figure.2
 
-Before ```step 3``` , the compiler will check the decision table of the corpus as Figure.3
+Before ```step 3``` , the program will validate the license, schema and cached corpus according to the the validating decision table.
 
-### Figure.3 the decision table of the corpus
-
-#### Validating the licenses, schema and cached corpus.
+## The validating decision table.
 
 1. Validating the license token and corpus token:
    1. Is the license token valided? 
@@ -93,7 +91,7 @@ Before ```step 3``` , the compiler will check the decision table of the corpus a
       1. If no, the program will exit and show a error message;
       2. If yes, the program continue executing.
    2. Is there a file called the ```schema_schemaToken_corpus_corpusToken.qcf```? 
-      For example, is there a file called Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf?
+      For example, is there a file called ```Ris_204c837db67e462987595675a78c7eca_cssci_6b9146da656448b89ae024d395f399fd.qcf```?
       Quicktext Coprus File uses the file extension '.qcf'.
       1. If no, it indicates that there is no cached corpus now;
       2. If yes, the qcf is the cached corpus file.
