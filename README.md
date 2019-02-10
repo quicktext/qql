@@ -60,6 +60,10 @@ Genix ***doesn't*** use any social instant messages such as the ***Wechat*** and
 
 # Contact Company (For any questions)
 
+Company website: <http://www.quicktext.cn>
+
+Genix's twitter (***maintained by the company***): [@realGenix](https://twitter.com/realGenix)
+
 ## **China**
 
 Mr Ding 
@@ -85,9 +89,4 @@ QQ: 1169195645
 Wechat: LY10184712
 
 Mobile: 13125091018
-
-Company website: 
-<http://www.quicktext.cn>
-
-Genix's twitter (***maintained by the company***): [@realGenix](https://twitter.com/realGenix)
 
