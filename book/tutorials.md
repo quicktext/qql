@@ -50,7 +50,7 @@ which
 
 ## Figure.1 The life cycle of the QQL
 
-![Quickcorps life cycle](../images/qqllifecycle.png)
+![Quickcorps life cycle](../images/QQLFlow.png)
 
 ## Figure.2 The abstract syntax of _CQL1.qql_
 
@@ -96,6 +96,9 @@ Before the ```step 3``` , the program will validate the license, schema and cach
  
 ## Figure.3 The validating decision table diagram
  
+ ![The validating decision table diagram](../images/QQLFlowChat.png)
+
+
 ## Initialize the cache corpus and fetch the corpus
  
 1. If 'qcf' file is existed, then the program will load the 'qcf' file.
