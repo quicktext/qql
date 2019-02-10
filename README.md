@@ -48,7 +48,7 @@ Please click the program in the bin folder with the [debug.qprivate](http://www.
 
 # About Genix
 
-Genix is a ***Java*** coder. He began learning Java Programming since ***2003***. He was awarded a bachelor's degree in ***2010***, a master's degree in ***2012*** and a doctor's degree in ***2016***. He completed his postdoctoral research in ***2018***. Now he works in Quicktext Infotech Co., Ltd in China.
+Genix is a ***Java*** coder. He began learning Java Programming since ***2003***. He was awarded a ***bachelor's degree*** in ***2010***, a ***master's degree*** in ***2012*** and a ***doctor's degree*** in ***2016***. He completed his postdoctoral research in ***2018***. Now he works in ***Quicktext Infotech Co., Ltd*** in China.
 
 # Contact Genix
 
