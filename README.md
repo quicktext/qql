@@ -31,16 +31,21 @@ It's a new domain-specific language oriented to the scientific research and data
 
 It's used for processing the corpus, especially for the researchers of information science.
 
-The Quicktext Query Language includes two parts:
+The Quicktext Query Language (QQL) is a domain-specific language oriented to the corpus processing. It includes five parts:
 
-1. The Corpus Query Language (CQL) of the Quicktext Query Language
-2. The Corpus Control Language (CCL) of the Quicktext Query Language
+1. The Corpus Definition Language (CDL)
+2. The Corpus Manipulation Language (CML)
+3. The Corpus Control Language (CCL)
+4. The Corpus Query Language (CQL)
+5. The Corpus Visualization Language (CVL).
 
-The QuickCorpus is an implement of the Quicktext Query Language.
+The QuickCorpus is an implement of the CDL, CML, CCL, CQL of the QQL.
 
-The Quicktext Query Language and QuickCorpus were developed by Genix when he began working in Quicktext Infotech Co., Ltd.
+The QuickViz is an implement of the CVL of the QQL.
 
-It's the product of Quicktext Infotech Co., Ltd.
+The Quicktext Query Language, QuickCorpus and QuickViz were developed by Genix when he began working in Quicktext Infotech Co., Ltd.
+
+They are the product of Quicktext Infotech Co., Ltd.
 
 # About Genix
 
