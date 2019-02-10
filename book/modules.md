@@ -16,11 +16,17 @@
 4. The Data Query Language (DQL)
 5. ***The Data Transaction Language (DTL)***
 
+The QQL contains the CVL while the SQL ***doesn't*** contain.
+
+The SQL contains the DTL while the QQL ***doesn't*** contain.
+
+# Figure.1 The componentS of the QQL
+
+！[The componentS of the QQL](../images/QQLComponent.png)
+
 The [***QuickCorpus***](http://www.quickcorpus.org/) is an official implement of the CDL, CML, CCL, CQL of the QQL.
 
 The [***QuickVIVZ***](http://www.quickviz.org/) is an official implement of the CVL of the QQL.
 
-The QQL contains the CVL while the SQL ***doesn't*** contain.
 
-The SQL contains the DTL while the QQL ***doesn't*** contain.
 
