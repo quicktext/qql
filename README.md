@@ -14,7 +14,7 @@ The principle of the QQL is under the ***CAP*** theory while the principle of th
 
 # Copyrights
 
-All the ***QQL***, ***QuickCorpus*** and ****QuickVIZ*** were developed by Genix independently when he began working in Quicktext Infotech Co., Ltd. They are the products of ***Quicktext Infotech Co., Ltd***.
+All the ***QQL***, ***QuickCorpus*** and ***QuickVIZ*** were developed by Genix independently when he began working in Quicktext Infotech Co., Ltd. They are the products of ***Quicktext Infotech Co., Ltd***.
 
 For ***non-commercial use***, please under the license of the ***MIT license***.
 
