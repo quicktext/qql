@@ -24,7 +24,7 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 - [x] [The syntax comparison table](book/features.md)
 - [x] [The loading mechanism comparison table](book/tutorials.md)
 - [x] [The life cycle comparison table](book/lifecycle.md)
-- [x] [The module comparison table](book/modules.md])
+- [x] [The module comparison table](book/modules.md)
 
 
 # Documents
