@@ -10,6 +10,10 @@ In this section, I will give some demos for learning the CCL of the QQL.
 
 The demos are written in the Java Language, but you can use any other languages as well.
 
+# The components of the QQL
+
+![QQL Component](../images/QQLComponent.png)
+
 # DEMO1: The simplest CQL statement
 ## File.1  _CQL1.qql_
 ```SQL
