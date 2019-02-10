@@ -21,7 +21,7 @@ For ***non-commercial use***, please under the license of the ***MIT license***.
 For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
 
 # The comparison tables between the QQL and SQL.
-- [x] [The syntax comparison table)](book/features.md)
+- [x] [The syntax comparison table](book/features.md)
 - [x] [The loading mechanism comparison table](book/tutorials.md)
 - [x] [The life cycle comparison table](book/lifecycle.md)
 - [x] [The module comparison table](book/modules.md])
