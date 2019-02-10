@@ -22,7 +22,7 @@ The SQL contains the DTL while the QQL ***doesn't*** contain.
 
 # Figure.1 The componentS of the QQL
 
-！[The componentS of the QQL](../images/QQLComponent.png)
+![The components of the QQL](../images/QQLComponent.png)
 
 The [***QuickCorpus***](http://www.quickcorpus.org/) is an official implement of the CDL, CML, CCL, CQL of the QQL.
 
