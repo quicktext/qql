@@ -6,7 +6,7 @@ The [***Quicktext Query Language***](http://www.quicktext.org) is called [***QQL
 
 On the other hand, the ***Structure Query Language*** (***SQL***) is a widely used programming language in the database.
 
-The QQL is a domain-specific language oriented to the ***corpus processing*** while the SQL is oriented to the ***data processing***.
+The ***QQL*** is a domain-specific language oriented to the ***corpus processing***, while the ***SQL*** is oriented to the ***data processing***.
 
 Although the corpus processing belongs to the data processing, yet there are many differences in the processing.
 
@@ -14,15 +14,13 @@ The principle of the QQL is under the ***CAP*** theory while the principle of th
 
 # Copyrights
 
-All the QQL, QuickCorpus and QuickViz were developed by Genix independently when he began working in Quicktext Infotech Co., Ltd.
+All the ***QQL***, ***QuickCorpus*** and ****QuickVIZ*** were developed by Genix independently when he began working in Quicktext Infotech Co., Ltd. They are the products of ***Quicktext Infotech Co., Ltd***.
 
-They are the product of Quicktext Infotech Co., Ltd.
+For ***non-commercial use***, please under the license of the ***MIT license***.
 
-For non-commercial user, please under the license of the MIT license.
+For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
 
-For commericial user, please contact the Quicktext Infotech Co., Ltd.
-
-# The comparison tables between the QQL nad SQL.
+# The comparison tables between the QQL and SQL.
 - [x] [The syntax comparison table)](book/features.md)
 - [x] [The loading mechanism comparison table](book/tutorials.md)
 - [x] [The life cycle comparison table](book/lifecycle.md)
@@ -50,7 +48,7 @@ Please click the program in the bin folder with the [debug.qprivate](http://www.
 
 # About Genix
 
-Genix is a Java coder. He began learning Java Programming since 2003. He was awarded a bachelor's degree in 2010, a master's degree in 2012 and a doctor's degree in 2016. He completed his postdoctoral research in 2018. Now he works in Quicktext Infotech Co., Ltd in China.
+Genix is a ***Java*** coder. He began learning Java Programming since ***2003***. He was awarded a bachelor's degree in ***2010***, a master's degree in ***2012*** and a doctor's degree in ***2016***. He completed his postdoctoral research in ***2018***. Now he works in Quicktext Infotech Co., Ltd in China.
 
 # Contact Genix
 
