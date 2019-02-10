@@ -31,7 +31,9 @@ It's a new domain-specific language oriented to the scientific research and data
 
 It's used for processing the corpus, especially for the researchers of information science.
 
-The Quicktext Query Language (QQL) is a domain-specific language oriented to the corpus processing. It includes five parts:
+The Quicktext Query Language (QQL) is a domain-specific language oriented to the corpus processing. 
+
+It includes five parts:
 
 1. The Corpus Definition Language (CDL)
 2. The Corpus Manipulation Language (CML)
