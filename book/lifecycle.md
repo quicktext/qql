@@ -74,7 +74,7 @@ I take the [SQLite](http://www.sqlite.org) for example.
 
 I take the [Quickcorps](http://www.quickcorpus.cn) for example.
 
-![Quickcorps life cycle](images/qqllifecycle.png)
+![Quickcorps life cycle](../images/qqllifecycle.png)
 
 1. The Tokenizer
 2. The Parser
