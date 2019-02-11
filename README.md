@@ -30,6 +30,7 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 # Documents
 ## Documents for beginners
 - [ ] The user manual
+- [x] [The demo scripts of the QQL](book/qql.demo.md)
 - [x] [Frequently Asked Questions](faq.md)
 - [x] [Download the QQL Terminal v0.0.2](https://github.com/quicktext/qql/releases)
 - [x] [ChangeLog of v0.0.2](changelog.md)
