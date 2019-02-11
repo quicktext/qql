@@ -15,8 +15,12 @@ which
 		'license'='http://www.quickcoprus.cn/debug.qprivate']
 ```
 
+## 2. The asbtract syntax tree of this QQL
 
-## 2. A complex QQL script
+![The asbtract syntax tree of this QQL](../images/simplest.qql.png)
+
+
+## 3. A complex QQL script
 ```SQL
 select 
 	'title','author','abstract','url'
@@ -53,3 +57,8 @@ which
 	license=[
 		'license'='http://www.quickcoprus.cn/debug.qprivate']
 ```
+
+## 4. The asbtract syntax tree of this QQL
+
+![The asbtract syntax tree of this QQL](../images/complex.qql.png)
+
