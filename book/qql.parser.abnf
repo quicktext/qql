@@ -1,6 +1,4 @@
-;#The Syntax Tree Anaylsis
-;
-
+;The Syntax Tree Anaylsis
 
 parse = (qql/qml) *(SEMI (qql/qml)) [SEMI] EOF;
 
