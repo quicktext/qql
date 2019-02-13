@@ -40,7 +40,7 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 ## Documents for designers of QQL compiler
 - [ ] The developer manual
 - [x] [The lexical analysis](book/qql.lexer.md)
-- [x] [The syntax tree analysis](book/qql.parser.abnf)
+- [x] [The syntax tree analysis](book/qql.parser.md)
 - [x] [How to take part in designing the compiler?](how.md)
 - [x] [Quicktext Query Language Reference](references.md)
 
