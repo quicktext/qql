@@ -1,3 +1,7 @@
+;#The Syntax Tree Anaylsis
+;
+
+
 parse = (qql/qml) *(SEMI (qql/qml)) [SEMI] EOF;
 
 qml =  VACUUM / DELETE corpuses / CLEAN corpuses;
