@@ -51,5 +51,5 @@
 | fragment SQUOTA_STRING | '\'' ('\\' . \| '\'\'' \| ~ ('\'' \| '\\'))* '\'' |
 | fragment DIGIT | [0-9]; |
 | ID | ID_LETTER (ID_LETTER \| DIGIT)* |
-| STRING_LITERAL | SQUOTA_STRING |
-| NUMBEG_LITERAL | DIGIT + |
+| STRING | SQUOTA_STRING |
+| NUMBEG | DIGIT + |
