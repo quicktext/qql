@@ -1,5 +1,6 @@
-;The Syntax Tree Anaylsis
+# The Syntax Tree Anaylsis
 
+```abnf
 parse = (qql/qml) *(SEMI (qql/qml)) [SEMI] EOF;
 
 qml =  VACUUM / DELETE corpuses / CLEAN corpuses;
@@ -137,3 +138,4 @@ pluginsStmtMap = pluginsStmtKey COMMANDASSIGN pluginsStmtValue ;
 pluginsStmtKey = pluginStmtKey;
 
 pluginsStmtValue = STRING;
+```
