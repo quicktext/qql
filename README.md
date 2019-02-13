@@ -34,16 +34,13 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 - [x] [Frequently Asked Questions](faq.md)
 - [x] [Download the QQL Terminal v0.0.2](https://github.com/quicktext/qql/releases)
 - [x] [ChangeLog of v0.0.2](changelog.md)
-
-Please click the program in the bin folder with the [debug.qprivate](http://www.quicktext.cn/debug.qprivate) in the root folder.
-
-## Documents for developers
-- [ ] The development manual.
 - [x] [Specification of Quicktext Query Language](specification.md)
 - [x] [Other Languages](otherlanguage.md)
 
 ## Documents for designers of QQL compiler
-- [ ] The designing manual.
+- [ ] The developer manual
+- [x] [The lexical analysis](book/qql.lexer.md)
+- [x] [The syntax tree analysis](book/book/qql.parser.abnf)
 - [x] [How to take part in designing the compiler?](how.md)
 - [x] [Quicktext Query Language Reference](references.md)
 
