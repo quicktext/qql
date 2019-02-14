@@ -46,8 +46,7 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 
 # About Genix
 
-Genix is a ***Java*** coder. He began learning Java Programming since ***2003***. He was awarded a ***bachelor's degree*** in ***2010***, a ***master's degree*** in ***2012*** and a ***doctor's degree*** in ***2016***. He completed his ***postdoctoral research*** in ***2018***. Now he works in ***Quicktext Infotech Co., Ltd*** in China.
-
+Genix is a ***Java*** coder. He began learning Java Programming since ***2003***. 
 # Contact Genix
 
 ***Only*** reply for ***technology*** questions, other questions ***please contact with the company***!
