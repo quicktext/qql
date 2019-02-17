@@ -22,11 +22,11 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 
 # The family of the Quicktext Query Language (QQL)
 - [ ] [QQLCloud](http://www.qqlstdio.com/): The storage for QQL users.
-- [ ] [QQLHub](http://www.qqlstdio.com/): The hub for QQL developers.
+- [ ] [QQLHub](http://www.qqlstdio.com/): The hub for QQL development.
 - [x] [QQLStduio](http://www.qqlstdio.com/): The IDE for QQL developers.
 - [x] [QuickVIZ](http://www.quickviz.org): A programming language for the data visualization
 - [x] [QuickCorups](http://www.quickcorpus.org/): A programming implements of the QQL standard
-- [x] [QQL](http://www.quicktext.org/): The specialfiction of the Quicktext Query Language.
+- [x] [QQL](http://www.quicktext.org/): The specification of the Quicktext Query Language.
 - [x] [QuickFS](http://www.quickfs.org/): This File System is designed to the QQL.
 
 # The comparison tables between the QQL and SQL.
