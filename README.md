@@ -4,7 +4,8 @@
 # News
 2019.2.20    Version 0.0.3 Release! 
 
-Demo URL: <http://www.quicktext.cn/QQLTerminal/>
+Windows Terminal URL: <https://github.com/quicktext/qql/releases/tag/v0.0.3>
+Web Terminal URL: <http://www.quicktext.cn/QQLTerminal/>
 
 ![0.0.3](images/0.0.3.png)
 
