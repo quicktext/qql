@@ -1,6 +1,31 @@
 # Everybody should have an own corpus repertory!
 # Linking data and data!
 
+# News
+2019.2.20    Version 0.0.3 Release! 
+
+Demo URL: <http://www.quicktext.cn/QQLTerminal/>
+
+![0.0.3](images/0.0.3.png)
+
+DEBUG KEY Download : <http://www.quicktext.cn/debug.qprivate>
+
+Demo Script:
+
+```SQL
+select 'title','author','summary','url','doi' from 'cssci','cscd' 
+where keyword=['doc2vec'] 
+which 
+schema=
+['cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc',
+'cscd'='http://www.quicktext.cn/ris?bda02d1d34cd45fc9ce3f1d05e2dde57'],
+corpus=
+['cssci'='http://www.doi.ai/json?q=',
+'cscd'='http://www.doi.ai/json?q='],
+license=
+['license'='http://www.quicktext.cn/debug.qprivate']
+```
+
 # About Quicktext Query Language
 
 The [***Quicktext Query Language***](http://www.quicktext.org) is called [***QQL***](http://www.quicktext.org) for short. 
