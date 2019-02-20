@@ -1,4 +1,5 @@
 # Everybody should have an own corpus repertory!
+# Linking data and data!
 
 # About Quicktext Query Language
 
