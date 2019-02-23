@@ -13,7 +13,7 @@
 
 The QQL is oriented to the corpuses while the SQL is oriented to the database.
 
-In another word, the QQL is a NoSQL language.
+In another word, the QQL is a NOSQL language.
 
 # Differences of Data Definition Language (DDL)
 
@@ -74,9 +74,9 @@ If you want to sort the data, you need index the data firstly then load the mode
 
 # Differences of Data Transaction Language (DTL)
 
-The dtl of the SQL includes 'START TRANSACTION', 'SAVEPOINT, COMMIT', 'ROLLBACK' and 'TO SAVEPOINT' statements while the QQL does not support the DML.
+The DTL of the SQL includes 'START TRANSACTION', 'SAVEPOINT, COMMIT', 'ROLLBACK' and 'TO SAVEPOINT' statements while the QQL does not support the DML.
 
-The QQL need not the DTL because the QQL maintaines the data transaction automatically.
+The QQL need not the DTL because the QQL maintains the data transaction automatically.
 
 
 ## Additional keywords of the Quicktext Query Language (QQL)
