@@ -1,5 +1,6 @@
-# Everybody should have an own corpus repertory!
-# Linking data and data!
+# Quicktext Query Language is a new DSL language designing for the QuickCoprus.
+
+# QuickCoprus is a new NOSQL database.
 
 # News
 2019.2.20    Version 0.0.3 Release! 
