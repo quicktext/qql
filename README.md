@@ -1,19 +1,40 @@
-# Quicktext Query Language is a new DSL language designing for the QuickCoprus.
+# Welcome to the Quicktext Query Language
 
-# QuickCoprus is a new NOSQL database.
+Quicktext Query Language is called the QQL for short.
+
+Quicktext Query Language is a new DSL language designing for the QuickCoprus.
+
+QuickCoprus is a new **NOSQL** database.
 
 # News
 2019.2.20    Version 0.0.3 Release! 
 
 Windows Terminal URL: <https://github.com/quicktext/qql/releases/tag/v0.0.3>
 
-Web Terminal URL: <http://www.quicktext.cn/QQLTerminal/>
+Web Terminal Demo URL: <http://www.quicktext.cn/QQLTerminal/>
 
 ![0.0.3](images/0.0.3.png)
 
 DEBUG KEY Download : <http://www.quicktext.cn/debug.qprivate>
 
-Full Demo Script:
+# A simple demo:
+
+```SQL
+select 
+	'title','author','abstract','url'
+from
+	'cssci'
+where 
+	keyword=['media']
+which 
+	schema=[
+		'cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc'], 
+	corpus=[
+		'cssci'='http://www.doi.ai/json?q=']
+```
+
+
+# A full demo:
 
 ```SQL
 select 
@@ -61,20 +82,6 @@ which
 	license=[
 		'license'='http://www.quickcoprus.cn/debug.qprivate']
 
-```
-
-```SQL
-select 
-	'title','author','abstract','url'
-from
-	'cssci'
-where 
-	keyword=['media']
-which 
-	schema=[
-		'cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc'], 
-	corpus=[
-		'cssci'='http://www.doi.ai/json?q=']
 ```
 
 # About Quicktext Query Language
