@@ -1,0 +1,37 @@
+# http://www.graphviz.org/content/cluster
+
+digraph G {
+    rankdir=LR  
+    subgraph cluster_0{
+	quickfs [shape=component];
+	quickcorpus [shape=component];
+	qqlstudio [shape=component];
+	quickfs->quickcorpus->qqlstudio;
+	label ="kernel";
+    }
+	
+	 subgraph cluster_1{
+	qqlcloud [shape=component];
+	qqlhub [shape=component];
+	qqlviz [shape=component];
+	qqlmodel [shape=component];
+	
+	qqlcloud->qqlviz;
+	 qqlcloud->qqlmodel;
+	qqlviz->qqlhub;
+	qqlmodel->qqlhub;
+	qqlcloud->qqlhub;
+	 	label ="QQL Market";
+
+	 }
+	 
+	qqlstudio->qqlcloud;
+	 
+	 subgraph cluster_2{
+	    dqql [shape=component];
+	
+		label ="Distributed Market";
+   }
+	qqlhub->dqql;
+
+}
