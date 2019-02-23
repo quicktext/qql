@@ -1,4 +1,4 @@
-# Comparisons of the Quicktext Query Language (QQL) and Structure Query Language (SQL)
+# Comparisons of the QQL and the SQL
 
 # Similarities
 1. Both are insensitive;
@@ -11,7 +11,7 @@
 | CORPUS | TABLE | 
 | CORPUSES | DATABASE |
 
-The QQL is oriented to the corpuses while the SQL is oriented to the dabatabase.
+The QQL is oriented to the corpuses while the SQL is oriented to the database.
 
 In another word, the QQL is a NoSQL language.
 
@@ -25,7 +25,7 @@ The QQL need not the DDL because the QQL defines the data automatically.
 
 The DCL of the SQL includes CREATE, DROP, SET, REVOKE and GRANT statements while the QQL does not support the DCL.
 
-The QQL need not the DDL because the QQL maintaines the permissions automatically by the authorization servers.
+The QQL need not the DDL because the QQL maintains the permissions automatically by the authorization servers.
 
 The kinds of the authorization servers:
 
@@ -39,7 +39,7 @@ The kinds of the authorization servers:
 
 The DML of the SQL includes INSERT, UPDATE, DELETE, MERGE, EXPLAIN PLAN and LOCK TABLE statements while the QQL does not support the DML.
 
-The QQL need not the DDL because the QQL maintaines the data automatically.
+The QQL need not the DDL because the QQL maintains the data automatically.
 
 To delete the data, you can delete the data folder directly.
 
@@ -62,8 +62,7 @@ To delete the data, you can delete the data folder directly.
 
 The QQL **doesn't support keyword 'LIKE'** because the querying mechanism is similar to K-V querying.
 
-If you want to sort the data, you need index the data by the model statement firstly.
-
+If you want to sort the data, you need index the data firstly then load the model.
 
 ## Additional keywords of the Quicktext Query Language (QQL)
 
