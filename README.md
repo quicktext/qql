@@ -13,7 +13,7 @@ Web Terminal URL: <http://www.quicktext.cn/QQLTerminal/>
 
 DEBUG KEY Download : <http://www.quicktext.cn/debug.qprivate>
 
-Demo Script:
+Full Demo Script:
 
 ```SQL
 select 
@@ -63,7 +63,19 @@ which
 
 ```
 
-
+```SQL
+select 
+	'title','author','abstract','url'
+from
+	'cssci'
+where 
+	keyword=['media']
+which 
+	schema=[
+		'cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc'], 
+	corpus=[
+		'cssci'='http://www.doi.ai/json?q=']
+```
 
 # About Quicktext Query Language
 
@@ -86,16 +98,17 @@ For ***non-commercial use***, please under the license of the ***MIT license***.
 For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
 
 # The family of the Quicktext Query Language (QQL)
-- [ ] [QQLCloud](http://www.qqlstdio.com/): The storage for QQL users.
-- [ ] [QQLHub](http://www.qqlstdio.com/): The hub for QQL development.
+- [x] [QQLCloud](http://www.qqlclod.com/): The storage for QQL users.
+- [x] [QQLHub](http://www.qqlhub.com/): The hub for QQL development.
 - [x] [QQLStduio](http://www.qqlstdio.com/): The IDE for QQL developers.
-- [x] [QuickVIZ](http://www.quickviz.org): A programming language for the data visualization
+- [x] [QQLVIZ](http://www.qqlviz.com): A programming language for the data visualization
+- [x] [QQLModel](http://www.qqlmodel.com): A programming language for the data modelization
 - [x] [QuickCorups](http://www.quickcorpus.org/): A programming implements of the QQL standard
+- [x] [QuickFS](http://www.quickfs.org/): This File System of the QQL
 - [x] [QQL](http://www.quicktext.org/): The specification of the Quicktext Query Language.
-- [x] [QuickFS](http://www.quickfs.org/): This File System is designed to the QQL.
 
 # The comparison tables between the QQL and SQL.
-- [x] [The syntax comparison table](book/features.md)
+- [x] [The comparison table btween the SQL and the QQL](book/comparisons.md)
 - [x] [The loading mechanism comparison table](book/tutorials.md)
 - [x] [The life cycle comparison table](book/lifecycle.md)
 - [x] [The module comparison table](book/modules.md)
@@ -112,7 +125,6 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 - [x] [Other Languages](otherlanguage.md)
 
 ## Documents for designers of QQL compiler
-- [ ] The developer manual
 - [x] [The lexical analysis](book/qql.lexer.md)
 - [x] [The syntax tree analysis](book/qql.parser.md)
 - [x] [How to take part in designing the compiler?](how.md)
