@@ -20,17 +20,12 @@ DEBUG KEY Download: <http://www.quicktext.cn/debug.qprivate>
 # A simple demo:
 
 ```SQL
-select 
-	'title','author','abstract','url'
-from
-	'cssci'
-where 
-	keyword=['media']
-which 
-	schema=[
+select 	'title','author','abstract','url' from	'cssci','cscd'
+where keyword=['media','AI','AI+media']
+which schema=[
 		'cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc'], 
 	corpus=[
-		'cssci'='http://www.doi.ai/json?q=']
+		'cssci'='http://cssci.doi.ai/json?q=']
 ```
 
 
@@ -46,18 +41,18 @@ where
 	limit 0,1000,
 	update = local 
 do 
-	process=[
-		'lucene.sort.year' = 'desc',
-		'lucene.sort.name' = 'asc',
-		'tensorflow.train' = 'true',
-		'tensorflow.test' = 'true',
+	test=[
+		'lucene1.sort.year' = 'desc',
+		'lucene1.sort.name' = 'asc',
+		'tensorflow2' = 'cscd',
+		'caffe2' = 'cscd'
 		],
 	filter = [
 		'name' = 'information',
 		'year' = 'analytics'],
 	black filter = [
 		'name'='data',
-		'year'='research'],
+		'year'='research']
 with	
 	visualize=[
 		'mail'='genix@quicktext.cn',
@@ -72,11 +67,15 @@ which
 		'cssci'='http://cssci.doi.ai/json?q=',
 		'cscd'='http://cscd.doi.ai/json?q=',
 		'patent'='http://username:password@corpus.quickcopus.cn/sci/token3'],
-	model=[
-		'tensorflow'='D:/google.model',
-		'caffe'='C:/berkery.model',
-		'lucene'='C:/index_dir1/'],
-	visualize=[
+	testmodel=[
+		'tensorflow1'='D:/google.model',
+		'caffe2'='C:/berkery.model',
+		'lucene3'='C:/index_dir1/'],
+	trainmodel=[
+		'tensorflow4'='D:/google.model',
+		'caffe5'='C:/berkery.model',
+		'lucene6'='C:/index_dir1/'],
+	visualization=[
 		'mail'='http://username:password@action.quickcorpus.cn/mail/token4',
 		'sms'='http://username:password@action.quickcorpus.cn/sms/token5'],
 	license=[
