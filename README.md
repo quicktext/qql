@@ -105,13 +105,13 @@ For ***non-commercial use***, please under the license of the ***MIT license***.
 For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
 
 # The family of the Quicktext Query Language (QQL)
-- [x] [QQLCloud](http://www.qqlclod.com/): The storage for QQL users.
+- [x] [QQLCloud](http://www.qqlclod.com/): The cloud storage for QQL users.
 - [x] [QQLHub](http://www.qqlhub.com/): The hub for QQL development.
-- [x] [QQLStduio](http://www.qqlstdio.com/): The IDE for QQL developers.
-- [x] [QQLVIZ](http://www.qqlviz.com): A programming language for the data visualization
-- [x] [QQLModel](http://www.qqlmodel.com): A programming language for the data modelization
-- [x] [QuickCorups](http://www.quickcorpus.org/): A programming implements of the QQL standard
-- [x] [QuickFS](http://www.quickfs.org/): This File System of the QQL
+- [x] [QQLstudio](http://www.qqlstudio.com/): The IDE for QQL developers.
+- [x] [QQLVIZ](http://www.qqlviz.com): The data visualization toolkits.
+- [x] [QQLModel](http://www.qqlmodel.com): The data modelization toolkits
+- [x] [QuickCorups](http://www.quickcorpus.org/): A server implements of the QQL standard
+- [x] [QuickFS](http://www.quickfs.org/): The File System of the QQL
 - [x] [QQL](http://www.quicktext.org/): The specification of the Quicktext Query Language.
 
 # The comparison tables between the QQL and SQL.
