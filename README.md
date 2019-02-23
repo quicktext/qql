@@ -15,18 +15,53 @@ DEBUG KEY Download : <http://www.quicktext.cn/debug.qprivate>
 Demo Script:
 
 ```SQL
-select 'title','author','summary','url','doi' from 'cssci','cscd' 
-where keyword=['doc2vec'] 
+select 
+	'title','author','abstract','url'
+from
+	'cssci','cscd','patent'
+where 
+	keyword=['media','AI','AI+media'],
+	limit 0,1000,
+	update = local 
+do 
+	process=[
+		'lucene.sort.year' = 'desc',
+		'lucene.sort.name' = 'asc',
+		'tensorflow.train' = 'true',
+		'tensorflow.test' = 'true',
+		],
+	filter = [
+		'name' = 'information',
+		'year' = 'analytics'],
+	black filter = [
+		'name'='data',
+		'year'='research'],
+	visualize=[
+		'mail'='genix@quicktext.cn',
+		'sms'='+8600000000000',
+		'csv'='1.csv',
+		'ris'='2.ris']
 which 
-schema=
-['cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc',
-'cscd'='http://www.quicktext.cn/ris?bda02d1d34cd45fc9ce3f1d05e2dde57'],
-corpus=
-['cssci'='http://www.doi.ai/json?q=',
-'cscd'='http://www.doi.ai/json?q='],
-license=
-['license'='http://www.quicktext.cn/debug.qprivate']
+	schema=[
+		'cssci'='http://www.quicktext.cn/ris?eeaeb365bb7a45cbb1f8773d63ead0fc',
+		'cscd'='http://www.quicktext.cn/ris?bda02d1d34cd45fc9ce3f1d05e2dde57'], 
+	corpus=[
+		'cssci'='http://cssci.doi.ai/json?q=',
+		'cscd'='http://cscd.doi.ai/json?q=',
+		'patent'='http://username:password@corpus.quickcopus.cn/sci/token3'],
+	model=[
+		'tensorflow'='D:/google.model',
+		'caffe'='C:/berkery.model',
+		'lucene'='C:/index_dir1/'],
+	visualize=[
+		'mail'='http://username:password@action.quickcorpus.cn/mail/token4',
+		'sms'='http://username:password@action.quickcorpus.cn/sms/token5'],
+	license=[
+		'license'='http://www.quickcoprus.cn/debug.qprivate']
+
 ```
+
+
 
 # About Quicktext Query Language
 
