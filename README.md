@@ -15,7 +15,7 @@ Web Terminal Demo URL: <http://www.quicktext.cn/QQLTerminal/>
 
 ![0.0.3](images/0.0.3.png)
 
-DEBUG KEY Download : <http://www.quicktext.cn/debug.qprivate>
+DEBUG KEY Download: <http://www.quicktext.cn/debug.qprivate>
 
 # A simple demo:
 
@@ -102,7 +102,7 @@ All the ***QQL***, ***QuickCorpus*** and ***QuickVIZ*** were developed by Genix 
 
 For ***non-commercial use***, please under the license of the ***MIT license***.
 
-For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
+For ***commercial use***, please contact the Quicktext Infotech Co., Ltd to register a ***license***.
 
 # The family of the Quicktext Query Language (QQL)
 - [x] [QQLCloud](http://www.qqlclod.com/): The cloud storage for QQL users.
@@ -115,7 +115,7 @@ For ***commericial use***, please contact the Quicktext Infotech Co., Ltd to reg
 - [x] [QQL](http://www.quicktext.org/): The specification of the Quicktext Query Language.
 
 # The comparison tables between the QQL and SQL.
-- [x] [The comparison table btween the SQL and the QQL](book/comparisons.md)
+- [x] [The comparison table between the SQL and the QQL](book/comparisons.md)
 - [x] [The loading mechanism comparison table](book/tutorials.md)
 - [x] [The life cycle comparison table](book/lifecycle.md)
 - [x] [The module comparison table](book/modules.md)
