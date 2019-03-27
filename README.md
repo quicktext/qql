@@ -7,6 +7,9 @@ Quicktext Query Language is a new DSL language designing for the QuickCoprus.
 QuickCoprus is a new **NOSQL** database.
 
 # News
+
+2019.3.27  The data server is updating , it will be restarted on May 1, 2019.
+
 2019.3.15    Version 0.0.4 Release! 
 
 Windows Terminal URL: <https://github.com/quicktext/qql/releases/tag/v0.0.4>
