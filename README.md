@@ -6,7 +6,11 @@ Quicktext Query Language is a new DSL language designing for the QuickCoprus.
 
 QuickCoprus is a new **NOSQL** database.
 
+We have added patent database: <http://www.wepd.org/>
+
 # News
+
+2019.5.5 We have added patent database: <http://www.wepd.org/>
 
 2019.3.27  The data server is updating , it will be restarted on May 1, 2019.
 
