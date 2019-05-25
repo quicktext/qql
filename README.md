@@ -8,6 +8,9 @@ QuickCoprus is a new **NOSQL** database.
 
 We have added patent database: <http://www.wepd.org/>
 
+We have added paper database: <http://www.doi.ai/>
+
+
 # News
 
 2019.5.5 We have added patent database: <http://www.wepd.org/>
