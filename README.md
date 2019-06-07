@@ -10,6 +10,7 @@ We have added patent database: <http://www.wepd.org/>
 
 We have added paper database: <http://www.doi.ai/>
 
+We have added main website: <http://www.quicktext.cn/>
 
 # News
 
