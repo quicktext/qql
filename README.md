@@ -161,32 +161,3 @@ Genix ***doesn't*** use any social instant messages such as the ***Wechat*** and
 # Contact Company (For any questions)
 
 Company website: <http://www.quicktext.cn>
-
-Genix's twitter (***maintained by the company***): [@realGenix](https://twitter.com/realGenix)
-
-## **China**
-
-Mr Ding 
-
-E-mail: alex@quicktext.cn
-
-QQ: 635512001
-
-Wechat: 18652029400
-
-Mobile: 18652029400
-
-## **For Other countries**
-
-Mr Li 
-
-Business manager 
-
-E-mail: you.li@quicktext.cn
-
-QQ: 1169195645
-
-Wechat: LY10184712
-
-Mobile: 13125091018
-
