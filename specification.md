@@ -8,9 +8,8 @@ It's developed by Dr.Genix when he worked at Quicktext Infotech Co., Ltd from 20
 
 Quicktext Query Language is a product of Quicktext Infotech Co., Ltd. All rights reserved by Quicktext Infotech Co., Ltd. For commercial use, please contact to the company and for non-commercial use, please under license of the MIT license.
 
-Email of Genix: genix@quicktext.cn
 
-Email of Company: support@quicktext.cn
+Email of Company: support@greysh.com.cn
 
 The specification of Quicktext Query Language is written by Genix.
 
