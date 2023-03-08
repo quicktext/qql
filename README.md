@@ -6,11 +6,7 @@ Quicktext Query Language is a new DSL language designing for the QuickCoprus.
 
 QuickCoprus is a new **NOSQL** database.
 
-We have added patent database: <http://www.wepd.org/>
 
-We have added paper database: <http://www.doi.ai/>
-
-We have added main website: <http://www.quicktext.cn/>
 
 # News
 
@@ -160,4 +156,4 @@ Genix ***doesn't*** use any social instant messages such as the ***Wechat*** and
 
 # Contact Company (For any questions)
 
-Company website: <http://www.quicktext.cn>
+Company website: <http://www.greysh.com.cn>
