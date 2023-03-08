@@ -150,7 +150,7 @@ Genix is a ***Java*** coder. He began learning Java Programming since ***2003***
 
 ***Only*** reply for ***technology*** questions, other questions ***please contact with the company***!
  
-Genix's email: ***genix@quicktext.cn***
+Genix's email: ***support@greysh.com.cn***
 
 Genix ***doesn't*** use any social instant messages such as the ***Wechat*** and ***Telegram***, ***only*** use the email!
 
